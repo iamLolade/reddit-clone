@@ -84,21 +84,6 @@ const Leftbar = () => {
                 <p className='text-md font-semibold'>Help</p>
             </div>
         </div>
-        {/* <div className='px-6 space-y-6'>
-            <p className='uppercase text-sm'>Resources</p>
-            <div className='flex items-center space-x-4'>
-                <LuShip size={22} />
-                <p className='text-md font-bold'>About Reddit</p>
-            </div>
-            <div className='flex items-center space-x-4'>
-                <LuMegaphone size={22} />
-                <p className='text-md font-semibold'>Advertise</p>
-            </div>
-            <div className='flex items-center space-x-4'>
-                <PiQuestion size={22} />
-                <p className='text-md font-semibold'>Help</p>
-            </div>
-        </div> */}
     </div>
   )
 }

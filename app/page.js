@@ -12,7 +12,7 @@ import { Oval } from 'react-loader-spinner';
 export default function Home() {
   const [posts, setPosts] = useState(null)
   const [isLoading, setIsLoading] = useState(true);
-  console.log('Posts: ', posts)
+  // console.log('Posts: ', posts)
   useEffect(() => {
     const getAllPosts = async () => {
       try {
