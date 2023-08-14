@@ -13,7 +13,7 @@ const CreatePost = () => {
                 <RiArrowDownSLine size={22} />
             </div>
             <div className="m-4 p-2 bg-border">
-                <TextEditor />
+                {/* <TextEditor /> */}
                 <div className="flex justify-end m-6">
                     <div className="flex space-x-4 text-sm">
                         <button className="rounded-xl outline p-2 px-4">Save Draft</button>
