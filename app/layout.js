@@ -2,6 +2,7 @@ import Navbar from '@/components/main-nav'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Leftbar from '@/components/left-bar'
+import Rightbar from '@/components/right-bar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <div className="flex px-8">
           <Leftbar />
           {children}
+          <Rightbar />
         </div>
       </div>
       </body>
