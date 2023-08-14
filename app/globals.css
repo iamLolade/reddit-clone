@@ -26,7 +26,7 @@ body {
     rgb(var(--background-start-rgb));
   width: 100vw;
   height: 100vh;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 .main {
@@ -36,4 +36,12 @@ body {
 
 .layout {
   color: '#4E5D61' !important;
+}
+
+.posts {
+  overflow-y: scroll;
+}
+
+.avatar {
+  border-radius: 50%;
 }

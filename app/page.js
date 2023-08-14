@@ -1,10 +1,15 @@
+"use client"
+
 import Image from "next/image"
+import axios from "axios"
 import { RiArrowDownSLine } from "react-icons/ri"
-import { HiOutlineRectangleStack } from "react-icons/hi"
+import { HiOutlineRectangleStack } from "react-icons/hi2"
+import Post from "@/components/post"
 
 export default function Home() {
   return (
-      <main className="flex px-16 w-3/5">   
+      <main className="flex flex-col px-16 w-3/5">   
+        {/* Header */}
         <div className='flex justify-between border-b-2 border-border my-6 w-full h-10'>
           <div className="flex items-center space-x-4 w-full">
             <Image src='/images/robot.png' alt='robot' width={35} height={35}/>
@@ -26,6 +31,11 @@ export default function Home() {
                 <RiArrowDownSLine size={22} />
             </div>
           </div>
+        </div>
+
+        {/* Posts */}
+        <div className="posts">
+          <Post />
         </div>
       </main>
   )

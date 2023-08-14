@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="px-4 bg-background w-screen text-text">
         <Navbar />
-        <div className="flex px-16">
+        <div className="flex px-8">
           <Leftbar />
           {children}
         </div>
