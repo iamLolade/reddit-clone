@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css'; // Import the styles
 
@@ -8,8 +8,12 @@ const TextEditor = () => {
   const [editorHtml, setEditorHtml] = useState('');
 
   const handleEditorChange = (html) => {
-    setEditorHtml(html);
+    if (typeof document !== 'undefined') {
+      // Your browser-specific code here
+      setEditorHtml(html);
+    }
   };
+
 
   return (
     <div className='mx-4'>
