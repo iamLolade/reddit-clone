@@ -8,10 +8,7 @@ const TextEditor = () => {
   const [editorHtml, setEditorHtml] = useState('');
 
   const handleEditorChange = (html) => {
-    if (typeof document !== 'undefined') {
-      // Your browser-specific code here
-      setEditorHtml(html);
-    }
+      setEditorHtml('test');
   };
 
 
