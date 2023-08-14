@@ -10,7 +10,7 @@ const TextEditor = () => {
   const [editorHtml, setEditorHtml] = useState('');
 
   const handleEditorChange = (html) => {
-      setEditorHtml('test');
+      setEditorHtml(html);
   };
 
 

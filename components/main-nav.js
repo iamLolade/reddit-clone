@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi"
 
 const Navbar = () => {
     return (
-        <nav className='h-1/5 px-4 lg:px-16 py-4 flex items-center justify-between border-b-2 border-border'>
+        <nav className='h-1/5 px-4 lg:px-12 py-4 flex items-center justify-between border-b-2 border-border'>
             <Link href={'/'}>
                 <div className="flex items-center space-x-2">
                     <GiHamburgerMenu className='ham' size={22}/>
