@@ -4,9 +4,9 @@ import { LuArrowBigUpDash, LuArrowBigDownDash } from "react-icons/lu"
 import { GoComment } from "react-icons/go"
 import { FaRegShareFromSquare } from "react-icons/fa6"
 
-const Post = () => {
+const Post = ({ title, body }) => {
     return (
-        <div className="space-y-2">
+        <div className="">
             <div className="flex justify-between w-full">
                 <div className="flex space-x-2 items-center">
                     <Image 
@@ -27,7 +27,7 @@ const Post = () => {
                     <IoEllipsisHorizontalSharp />
                 </div>
             </div>
-            <h2>Title</h2>
+            <h2 className="capitalize my-4">{title}</h2>
             <Image 
                 src='/images/post.jpg' 
                 alt='post-image' 
@@ -35,7 +35,7 @@ const Post = () => {
                 height={120} 
                 className="rounded-lg"
             />
-            <div className="flex space-x-3">
+            <div className="flex space-x-3 my-4">
                 <div className="bg-border flex items-center space-x-2 rounded-xl p-2 text-xs font-semibold">
                     <LuArrowBigUpDash size={22} />
                     <p>30k</p>
