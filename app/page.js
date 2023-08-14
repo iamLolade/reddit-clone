@@ -29,18 +29,18 @@ export default function Home() {
   }, [])
 
   return (
-      <main className="flex flex-col px-16 w-auto lg:w-3/5">   
+      <main className="flex flex-col px-1 lg:px-16 sm:w-screen md:w-auto lg:w-3/5">   
         {/* Header */}
         <div className='flex justify-between border-b-2 border-border my-6 w-full h-10'>
           <div className="flex items-center space-x-4 w-full">
             <Image src='/images/robot.png' alt='robot' width={35} height={35}/>
-            <Link href={'/create-post'}>
+            <Link href={'/create-post'}> 
               <button className="text-sm text-white">
                 Create a post
               </button>
             </Link>
           </div>
-          <div className="flex items-center space-x-2"> 
+          <div className="flex items-center space-x-2 head"> 
             <div className='flex items-center space-x-1'>
                 <p className='text-md font-bold'>Hot</p>
                 <RiArrowDownSLine size={22} />

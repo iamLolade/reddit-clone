@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Rightbar = () => {
     return (
-        <div className="rounded-xl bg-black w-auto mx-2 my-4 p-4 flex flex-col h-1/2">
+        <div className="rounded-xl bg-black w-auto mx-2 my-4 p-4 flex flex-col h-1/2 right">
             <p className="uppercase text-sm font-semibold">Popular communities</p>
             <div className="flex flex-col my-4 space-y-3">
                 <div className='flex items-center space-x-2'>

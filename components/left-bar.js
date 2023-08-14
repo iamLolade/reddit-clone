@@ -10,7 +10,7 @@ import { RiStarSmileLine } from 'react-icons/ri'
 
 const Leftbar = () => {
   return (
-    <div className='flex flex-col pr-2 py-4 w-1/5 main border-r-2 border-border overflow-y-scroll'>
+    <div className='flex flex-col lg:pr-2 py-4 w-1/5 main border-r-2 border-border overflow-y-scroll left'>
         <div className='px-6 space-y-6'>
             <div className='flex items-center space-x-4'>
                 <TbHomeMove size={22} />

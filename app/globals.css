@@ -46,3 +46,35 @@ body {
 .avatar {
   border-radius: 50%;
 }
+.ham {
+  display: none;
+}
+
+/* Medium screen */
+@media (max-width: 820px) {
+  .right {
+    display: none;
+  }
+}
+
+/* Small screen */
+@media (max-width: 450px) {
+  main {
+    width: 100vw;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .brand {
+    display: none;
+  }
+  .head {
+    display: none;
+  }
+  .ham {
+    display: block;
+  }
+}
