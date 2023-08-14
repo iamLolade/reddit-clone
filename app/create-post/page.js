@@ -3,7 +3,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 
 const CreatePost = () => {
     return (
-        <div className="flex flex-col px-16 w-auto lg:w-3/5 my-6">
+        <main className="flex flex-col px-1 lg:px-16 w-auto lg:w-3/5 my-6">
             <div className="flex items-center justify-between border-b-2 border-border w-full p-4">
                 <p>Create a new post</p>
                 <p>Drafts<span className="ml-1 p-2 bg-border">0</span></p>
@@ -25,7 +25,7 @@ const CreatePost = () => {
                 <input type='checkbox' />
                 <p className="text-sm">Send me post reply notifications</p>
             </div>
-        </div>
+        </main>
     )
 }
 

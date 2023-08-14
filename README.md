@@ -1,3 +1,9 @@
+# If I had more time
+
+I would have 
+1. Implemented the create post feature, and 
+2. Made the hamburger menu functional on mobile devices
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

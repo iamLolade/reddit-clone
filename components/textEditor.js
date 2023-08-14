@@ -1,8 +1,7 @@
 "use client"
 import dynamic from 'next/dynamic';
 import React, { useState, useEffect } from 'react';
-// import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css'; // Import the styles
+import 'react-quill/dist/quill.snow.css';
 
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
@@ -42,24 +41,3 @@ TextEditor.modules = {
 
 export default TextEditor;
 
-
-// import dynamic from 'next/dynamic';
-
-// // Import ReactQuill asynchronously
-// const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
-
-// const MyTextEditor = () => {
-//   return (
-//     <div>
-//       <h2>Text Editor</h2>
-//       <ReactQuill modules={MyTextEditor.modules} />
-//     </div>
-//   );
-// };
-
-// // Quill modules configuration
-// MyTextEditor.modules = {
-//   // Your module configuration here
-// };
-
-// export default MyTextEditor;
