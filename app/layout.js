@@ -15,14 +15,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="px-2 lg:px-4 bg-background w-screen text-text">
-        <Navbar />
-        <div className="flex px-2 lg:px-8">
-          <Leftbar />
-          {children}
-          <Rightbar />
+        <div className="px-1 bg-background w-screen text-text">
+          <Navbar />
+          <div className="flex px-2 lg:px-8">
+            <Leftbar />
+            {children}
+            <Rightbar />
+          </div>
         </div>
-      </div>
       </body>
     </html>
   )
